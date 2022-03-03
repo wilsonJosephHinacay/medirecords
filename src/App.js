@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from "react";
-import "./App.css";
 import InputField from "./components/InputField";
 import _ from "lodash";
+import "./App.css";
 
 const App = () => {
   //init state
