@@ -5,7 +5,7 @@ import _ from "lodash";
 
 const App = () => {
   //init state
-  const [input, setInput] = useState(null);
+  const [input, setInput] = useState("");
   const [inputArray, setInputArray] = useState([]);
   const [output, setOutput] = useState([]);
 
