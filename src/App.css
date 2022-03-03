@@ -1,0 +1,24 @@
+.App {
+  background-color: #fff;
+  min-height: 100vh;
+  color: black;
+  padding: 90px;
+}
+
+.gravityFormLabel {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.gravityFormLabel > label {
+  color: #7f7f7f;
+  font-size: 16px;
+}
+
+.gravityFormControl {
+  box-sizing: border-box;
+  height: 50px;
+  padding: 10px 10px;
+  width: 100%;
+  font-size: 14px;
+}
