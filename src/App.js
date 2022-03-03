@@ -16,6 +16,7 @@ const App = () => {
     let numberArray = []; //init
     // iterate
     stringArray.forEach((str) => {
+      // validate empty
       if (!_.isEmpty(str)) {
         numberArray.push(Number(str));
       }
@@ -47,7 +48,7 @@ const App = () => {
                 onChange={(e) => {
                   validDigits(e.target?.value);
                 }}
-                value={_.toString(input)}
+                value={input}
                 type="text"
                 placeholder={"e.g 1,2,3,4,5"}
               />
